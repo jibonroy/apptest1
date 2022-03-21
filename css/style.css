@@ -1,0 +1,336 @@
+@font-face {
+  font-family: dosismedium;
+  src: url(../fonts/comic.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  font-family: dosismedium;
+}
+.row {
+  width: 100%;
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+  float: left;
+}
+.col-2 {
+  width: 16.66%;
+  float: left;
+}
+.col-3 {
+  width: 25%;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+.col-5 {
+  width: 41.66%;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+.col-8 {
+  width: 66.66%;
+  float: left;
+}
+.col-9 {
+  width: 75%;
+  float: left;
+}
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+.col-11 {
+  width: 91.66%;
+  float: left;
+}
+.col-12 {
+  width: 100%;
+  float: left;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* header part */
+
+header {
+  background-color: #223047;
+  color: white;
+}
+.logo-part {
+  margin: 10px 0 0 0;
+  padding-top: 10px;
+  transition: 0.3s;
+}
+.logo-part:hover {
+  background-color: #476aa7;
+  transition-timing-function: ease-in-out;
+}
+/* .logo-part image {
+}
+.manu-part {
+} */
+.manu-part ul {
+  margin: 5px 0px;
+}
+.manu-part li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 15px;
+  transition: 0.3s;
+}
+.manu-part li:hover {
+  color: black;
+  background-color: #476aa7;
+  transition-timing-function: ease-in-out;
+}
+.manu-part li select {
+  background-color: #22304700;
+  color: white;
+  cursor: pointer;
+  background-color: 0;
+}
+
+.manu-part li select option {
+  cursor: pointer;
+  color: black;
+}
+.manu-part a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.btn-part button {
+  margin: 17px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #00fff0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-part button:hover {
+  background-color: #ff9900;
+  transition-timing-function: ease-in-out;
+}
+.btn-part i {
+  margin: 20px 0;
+}
+hr {
+  width: 100%;
+  border: 0.5px solid;
+  color: rgb(177, 177, 177);
+}
+/* ========== Section app part ========== */
+
+#app {
+  background-color: #223047;
+  float: left;
+  margin: auto;
+  color: white;
+  height: 550px;
+}
+#app .container {
+  margin-top: 5%;
+}
+#app .hero-writing-part {
+  margin-top: 10%;
+}
+#app .hero-writing-part h1 {
+  width: 90%;
+  padding: 5% 10%;
+  font-size: 18pt;
+}
+#app .hero-writing-part p {
+  text-align: justify;
+  padding: 5% 10%;
+}
+#app .hero-writing-part button {
+  margin: 17px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #00fff0;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10%;
+  transition: 0.3s;
+}
+#app .hero-writing-part button:hover {
+  background-color: #ff9900;
+  transition-timing-function: ease-in-out;
+}
+#app .hero-writing-part .button2 {
+  margin: 17px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #2f4464;
+  border: 0.3px solid;
+  border-color: white;
+  cursor: pointer;
+  color: rgb(224, 224, 224);
+  display: inline-block;
+  margin-left: 10%;
+  transition: 0.3s;
+}
+#app .hero-writing-part .button2:hover {
+  background-color: #ff9900;
+  color: black;
+  border-color: #ff9900;
+  transition-timing-function: ease-in-out;
+}
+/* ========== Section services-part ========== */
+#services-part .container {
+  display: block;
+  text-align: center;
+  background-color: white;
+}
+#services-part .heading-part {
+  margin-top: 15%;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+#services-part .hr2 {
+  width: 60px;
+  border: 4px solid #00fff0;
+  margin-left: 45%;
+}
+#services-part .services {
+  margin-top: 10%;
+}
+#services-part .services .service1 {
+  box-sizing: border-box;
+  height: 250px;
+  width: 230px;
+  box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+  text-align: center;
+  padding: 0 2px;
+  margin: 1%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#services-part .services .service1:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+}
+.Modern_Flat_Design {
+  font-size: 17px;
+  color: rgb(35, 49, 72);
+  text-align: center;
+}
+.Cras_ultricies_ligul {
+  font-size: 14px;
+  color: rgb(151, 164, 190);
+  line-height: 2.071;
+  text-align: center;
+}
+#services-part .services .service2 {
+  box-sizing: border-box;
+  height: 250px;
+  width: 230px;
+  box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+  text-align: center;
+  padding: 0 2px;
+  margin: 1%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#services-part .services .service2:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+}
+#services-part .services .service3 {
+  box-sizing: border-box;
+  height: 250px;
+  width: 230px;
+  box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+  text-align: center;
+  padding: 0 2px;
+  margin: 1%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#services-part .services .service3:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+}
+#services-part .services .service4 {
+  box-sizing: border-box;
+  height: 250px;
+  width: 230px;
+  box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+  text-align: center;
+  padding: 0 2px;
+  margin: 1%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#services-part .services .service4:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+  transition-timing-function: ease-in-out;
+}
+
+/* ================ Mobile view================= */
+@media (max-width: 768px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+    float: none;
+    margin: auto;
+    display: inline-block;
+  }
+  .hero-img-part img {
+    width: 30%;
+    margin-left: 35%;
+    float: none;
+    display: inline-block;
+  }
+  .manu-part ul {
+    margin-left: 10%;
+  }
+  #services-part .services .service1,
+  #services-part .services .service2,
+  #services-part .services .service3,
+  #services-part .services .service4 {
+    float: none;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    margin-top: 2%;
+  }
+  .heading-part h2 {
+    margin-top: 20%;
+  }
+  .logo-part img {
+    display: blocK;
+    margin: auto;
+  }
+  .btn-part button,
+  img {
+    display: block;
+    margin: auto;
+  }
+  #services-part .hr2 {
+    margin-left: 35%;
+  }
+}
